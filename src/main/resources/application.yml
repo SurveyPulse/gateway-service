@@ -38,3 +38,8 @@ spring:
           uri: http://localhost:8085
           predicates:
             - Path=/api/reports/**
+
+        - id: advertise-service
+          uri: http://localhost:8086
+          predicates:
+            - Path=/api/advertisements/**
